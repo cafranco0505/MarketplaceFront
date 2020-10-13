@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-topbanner',
@@ -10,7 +11,7 @@ export class TopbannerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $('.carousel').carousel();
+    (<any>$('.carousel')).carousel();
   }
 
 }
