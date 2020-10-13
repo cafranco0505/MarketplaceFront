@@ -10,6 +10,7 @@ export class TopbannerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $('.carousel').carousel();
   }
 
 }
