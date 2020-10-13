@@ -7,6 +7,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { TopbannerComponent } from './components/topbanner/topbanner.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { OptionsComponent } from './components/options/options.component';
+import { BodyComponent } from './components/body/body.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { OptionsComponent } from './components/options/options.component';
     NavComponent,
     TopbannerComponent,
     FeaturesComponent,
-    OptionsComponent
+    OptionsComponent,
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
