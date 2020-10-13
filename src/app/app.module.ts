@@ -9,6 +9,11 @@ import { FeaturesComponent } from './components/features/features.component';
 import { OptionsComponent } from './components/options/options.component';
 import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SignInComponent } from './components/sign-in/sign-in.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { FooterComponent } from './components/footer/footer.component';
     FeaturesComponent,
     OptionsComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    SignInComponent,
+    SignUpComponent,
+    PricingComponent,
+    CheckoutComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
